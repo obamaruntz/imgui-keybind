@@ -1,6 +1,6 @@
 #include "keybind.h"
 
-void Keybind(int* keybind_ptr, const std::string& label = "Key", bool* hotkey_activation = false, std::string unique = "h", int offset = 0) {
+void Keybind(int* keybind_ptr, const std::string& label, bool* hotkey_activation, std::string unique, int offset) {
     if (!label.empty() && label.find("##") == std::string::npos) {
         ImGui::Text(label.c_str());
         ImGui::SameLine();
