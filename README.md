@@ -1,1 +1,1 @@
-# if you don't know how to use this, get a job
+# discord: m2n5m35n63b5mbv56m34bm73v4bn3v5v
