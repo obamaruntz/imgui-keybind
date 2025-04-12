@@ -5,6 +5,7 @@
 
 ## Example Usage
 ```cpp
+// Have in a storage/cache somewhere (to store the values)
 namespace keybinds { // char mappings
 	inline int triggerbot_key = 0x45;
 	inline int player_select_key = 0x43;
@@ -21,6 +22,7 @@ namespace listeners {
 	inline bool macro_listener = false;
 }
 
+// Then in your ImGui Render Loop, you can add the elements:
 Keybind(&cache::keybinds::triggerbot_key, "Triggerbot Key", &cache::listeners::triggerbot_listener, "tb");
 Keybind(&cache::keybinds::camlock_key, "Camlock Key", &cache::listeners::camlock_listener, "cl");
 Keybind(&cache::keybinds::player_select_key, "Player Select Key", &cache::listeners::player_select_listener, "ps");
