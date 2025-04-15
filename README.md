@@ -3,7 +3,10 @@
 
 ## discord: m2n5m35n63b5mbv56m34bm73v4bn3v5v
 
-## Example Usage
+## Example
+![image](https://github.com/user-attachments/assets/9d59c3f3-b959-4e4e-9dc3-311dead6990e)
+
+## Usage
 ```cpp
 // Have in a storage/cache somewhere (to store the values)
 namespace keybinds { // char mappings
