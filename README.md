@@ -1,7 +1,7 @@
 # ImGui-Keybind
 ## Works out of the box with Medal.tv & Nvidia Overlays.
 
-## discord: m2n5m35n63b5mbv56m34bm73v4bn3v5v
+## discord: 359160088071766016
 
 ## Example
 ![image](https://github.com/user-attachments/assets/9d59c3f3-b959-4e4e-9dc3-311dead6990e)
